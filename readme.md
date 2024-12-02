@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [Solution](https://github.com/Solataiwo-15/Lumo-Landing-Page)
-- Live Site URL: [Live Site](https://four-card-feature-section-master-sage-six.vercel.app/)
+- Live Site URL: [Live Site](https://lumo-landing-page-24dn.vercel.app/)
 
 ## My process
 
