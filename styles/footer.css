@@ -7,6 +7,17 @@ footer{
   font-family: Montserrat;
 }
 
+.Logo-Vector-footer{
+  width: 16.625rem;
+  height: 6.6875rem;
+}
+
+.center-section-footer{
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
 .socials-icon{
   display: flex;
   flex-direction: row;
@@ -29,4 +40,59 @@ footer{
   font-weight: 700;
   letter-spacing: 0.25rem;
   color: #333C4F;
+  margin-bottom: 1.5625rem;
+}
+
+@media (max-width: 428px) {
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Montserrat;
+  }
+
+  .Logo-Vector-footer{
+    width: 266px;
+    height: 107px;
+  }
+
+  .center-section-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1.25rem;
+    column-gap: 3.4375rem;
+    text-align: center;
+  }
+  
+  .socials-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 1.875rem;
+  }
+  
+  .icons{
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .border-line{
+    background-color: #333C4F;
+    height: 0.0625rem; 
+    width: 23.9063rem;
+  }
+  
+  .footer-text{
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.2062rem;
+    color: #333C4F;
+    line-height: 1.0631rem;
+    text-align: center;
+    padding: 0 2.625rem;
+    margin-bottom: 1.5625rem;
+  }
 }

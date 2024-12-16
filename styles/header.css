@@ -5,6 +5,8 @@ header{
   align-items: center;
   justify-content: space-between;
   font-family: Montserrat;
+  z-index: 1;
+  margin-bottom: 1.25rem;
 }
 
 p{
@@ -26,6 +28,10 @@ p{
 
 .right-section{
   font-family: Montserrat;
+}
+
+.hamburger{
+  display: none;
 }
 
 .book-button{
@@ -56,4 +62,34 @@ p{
   font-size: 0.75rem;
   line-height: 0.9144rem;
   font-weight: 700;
+}
+
+@media (max-width: 428px) {
+
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 5.625rem;
+  }
+  
+  .Logo-Vector{
+    width: 8.75rem;
+    height: 3.5rem;
+  }
+  
+  .center-section{
+    display: none;
+  }
+
+  .hamburger{
+    width: 2.75rem;
+    height: 2rem;
+  }
+
+  .book-button{
+    display: none;
+  }
+
 }
