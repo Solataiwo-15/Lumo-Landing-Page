@@ -714,6 +714,7 @@ span{
   border: 0.125rem solid #333C4F;
   border-radius: 2.5rem;
   padding-left: 2.125rem;
+  padding-right: 2.125rem;
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
@@ -729,10 +730,21 @@ span{
   text-transform: uppercase;
 }
 
-.T2{
+.form{
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  border-style: none;
+  outline: none;
+  border-radius: 0.125rem;
+  width: 100%;
+  color: #333C4F;
+}
+
+.form::placeholder{
   font-size: 1.25rem;
   font-weight: 400;
   color: #333C4F;
+  opacity: 0.8;
 }
 
 .spot-card-2b{
@@ -741,6 +753,7 @@ span{
   border: 0.125rem solid #333C4F;
   border-radius: 2.5rem;
   padding-left: 2.125rem;
+  padding-right: 2.125rem;
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
@@ -1462,7 +1475,7 @@ span{
     padding-left: 1.3125rem;
     display: flex;
     flex-direction: column;
-    gap: 0.875rem;
+    gap: 0.625rem;
     align-items: flex-start;
     justify-content: center;
   }
@@ -1476,10 +1489,21 @@ span{
     text-transform: uppercase;
   }
   
-  .T2{
-    font-size: 0.875rem;
+  .form{
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    border-style: none;
+    outline: none;
+    border-radius: 0.125rem;
+    width: 100%;
+    color: #333C4F;
+  }
+  
+  .form::placeholder{
+    font-size: 1.25rem;
     font-weight: 400;
     color: #333C4F;
+    opacity: 0.8;
   }
   
   .spot-card-2b{
@@ -1490,7 +1514,7 @@ span{
     padding-left: 1.3125rem;
     display: flex;
     flex-direction: column;
-    gap: 0.875rem;
+    gap: 0.625rem;
     align-items: flex-start;
     justify-content: center;
   }
